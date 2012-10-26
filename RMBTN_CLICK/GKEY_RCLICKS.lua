@@ -18,7 +18,6 @@ function CreateAndSaveGKeyData(mode, arg)
 end
 
 function CreateGKeyMouseClick(destX, destY)
-    -- local destX,destY = GetMousePosition()
     -- OutputLogMessage("Create click function for(%d,%d)\n", destX, destY)
     return function ()
             origX,origY = GetMousePosition()
