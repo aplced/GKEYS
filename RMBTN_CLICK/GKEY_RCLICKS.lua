@@ -14,7 +14,7 @@ function CreateAndSaveGKeyData(mode, arg)
 
     WriteBindings()
 
-    return destX, destX
+    return destX, destY
 end
 
 function CreateGKeyMouseClick(destX, destY)
